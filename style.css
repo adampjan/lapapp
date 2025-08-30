@@ -1,0 +1,65 @@
+h1 {
+	color: rgb(0,155,255);
+	font-size: 100px;
+}
+
+input{
+	font-size: 30px;
+}
+
+.inputs {
+	background-color: rgb(140,220,255);
+	width: 50%;
+	padding: 10px;
+	border: 3px solid black;
+	border-radius: 10px;
+	margin: 5px;
+	box-sizing: border-box;
+	font-size: 40px;
+	
+}
+
+button {
+	background-color: rgb(100,180,255);
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	width: 400px;
+	height: 100px;
+	padding: 3px;
+	margin: 5px;
+	border: 1px solid black;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+p {
+	font-family: Lucida-Console;
+	font-size: 50px;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 0;
+}
+
+li {
+ 	list-style: none;
+	font-family: Lucida-Console;
+	font-size: 40px;
+}
+
+section {
+	display: flex;
+}
+
+article {
+	padding: 20px;
+	margin: 10px;
+	flex: 1;
+}
+
+#end {
+	font-size: 14px;
+}

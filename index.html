@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Lap Pace Calculator</title>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<script src="script.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<header>
+			<h1 align="center">Lap Pace Calculator</h1>
+		</header>
+		
+		<hr>
+		
+		<main>
+		<div class="inputs" id="inputs">
+			<!--<label for="racerCount">Number of Racers:</label>
+			<input type="tel" id="racerCount" placeholder="Racers" value=1>
+			<br>-->
+			<label for="raceDistance">Race Distance:</label>
+			<input type="tel" id="raceDistance" placeholder="meters">
+			<br>
+			<label for="lapDistance">Lap Distance:</label>
+			<input type="tel" id="lapDistance" placeholder="meters">
+			<br>
+			<button id="startB">Start</button>
+		</div>
+		
+		<div id="appUI">
+			<p id="timeUI" align="center">Time: 0:00.00</p>
+			<p id="projectedTimeUI" align="center">Projected Time: 0:00.00</p>
+			<section>
+				<article>
+					<button id="lapB">Lap</button>
+				</article>
+				<article>
+					<button id="stopB">Stop</button>
+				</article>
+			</section>
+			<br>
+			<section id= "lapData">
+				<article>
+					<ul id="laps">
+						<li id="lapLabel"><b>Lap: (x/x)</b></li>
+					</ul>
+				</article>
+				<article>
+					<ul id="racetimes">
+						<li><b>Time:</b></li>
+					</ul>
+				</article>
+				<article>
+					<ul id="laptimes">
+						<li><b>Split:</b></li>
+					</ul>
+				</article>
+				<article>
+					<ul id="lappaces">
+						<li><b>Pace:</b></li>
+					</ul>
+				</article>
+			</section>
+		</div>
+		
+		</main>
+		
+		<hr>
+		
+		<footer>
+			<p id="end" align="center">Version 0.5.2</p>
+		</footer>
+	</body>
+</html>
